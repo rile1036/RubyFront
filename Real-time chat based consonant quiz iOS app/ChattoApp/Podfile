@@ -1,0 +1,14 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'ChattoApp' do
+	pod 'Chatto', :path => ".."
+	pod 'ChattoAdditions', :path => ".."
+	pod 'Socket.IO-Client-Swift', '~> 13.2.0'
+	pod 'RxSwift',    '~> 4.0'
+	pod 'RxCocoa',    '~> 4.0'
+	pod 'SnapKit', '~> 4.0.0'
+	pod 'Then'
+	
+	pod 'Firebase/Core'
+end
